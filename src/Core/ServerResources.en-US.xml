@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ServerResources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<!-- Game Messages (These changed depending upon installed language) -->
+  <PlayerConnectedMessage>connected to the server.</PlayerConnectedMessage>
+  <PlayerJoinedMatchMessage>joined the match.</PlayerJoinedMatchMessage>
+  <PlayerDisconnectedMessage>disconnected from the server.</PlayerDisconnectedMessage>
+  <PlayerKilledMessage> killed </PlayerKilledMessage>
+  <PlayerSuicideMessage>committed suicide.</PlayerSuicideMessage>
+  <PlayerSaidMessage>(All):</PlayerSaidMessage>
+  <EnteringLobbyMessage>Entering lobby!</EnteringLobbyMessage>
+  <LeavingLobbyMessage>Leaving lobby!</LeavingLobbyMessage>
+  <MatchStartedMessage>Match started!</MatchStartedMessage>
+  <MatchEndedMessage>Match ended!</MatchEndedMessage>
+  <GameMessage>Game message:</GameMessage>
+  <CurrentMapMessage>Current map name :</CurrentMapMessage>
+  <TeamAPRMessage>TEAM APR</TeamAPRMessage>
+  <TeamUFLLMessage>TEAM UFLL</TeamUFLLMessage>
+  <TeamOtherMessage>OTHERS</TeamOtherMessage>
+
+	<!-- Commands (These don't change between languages) -->
+	<!-- {0} and {1} are placeholders, do not remove! -->
+	<SkipMapCommand>net_SkipMap</SkipMapCommand>
+	<ShuffleTeamsCommand>net_ShuffleTeams</ShuffleTeamsCommand>
+	<ExtendMatchCommand>net_ExtendMatch</ExtendMatchCommand>
+	<EndMatchCommand>net_EndMatch</EndMatchCommand>
+	<RestartMatchCommand>net_RestartMatch</RestartMatchCommand>
+	<KickPlayerCommand>net_KickClient {0}</KickPlayerCommand>
+	<BanPlayerCommand>net_KickBanClient {0}</BanPlayerCommand>
+	<TellPlayerCommand>Tell {0} {1}</TellPlayerCommand>
+	<SayCommand>Say {0}</SayCommand>
+	<GetMapNameCommand>net_GetCurrentMapName</GetMapNameCommand>
+	<GetPlayerListCommand>net_GetPlayerListByTeam</GetPlayerListCommand>
+</ServerResources>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<!--
+Game Mode: Deathmatch
+Server Type: Ranked
+-->
+<ArrayOfGameSetting xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<GameSetting Command="SetSetting matchPassword " Name="Match Password" Description="Sets password for entering a password protected match." />
+	<GameSetting Command="SetSetting remotePassword " Name="Remote Password" Description="Sets password for admin login." />
+	<GameSetting Command="SetSetting hardcore_mode " Name="Hardcore Mode" Description="Enables Hardcore Mode (No enemy tags, increased weapons damage)" DefaultValue="0">
+		<ValidValue Value="0" Description="Disables Hardcore Mode (Default)" />
+		<ValidValue Value="1" Description="Enables Hardcore Mode" />
+	</GameSetting>
+	<GameSetting Command="SetSetting max_score " Name="Maximum Score" Description="Sets the limit of points for a match." DefaultValue="20">
+		<ValidValue Value="0" Description="No Limit" />
+		<ValidValue Value="5" />
+		<ValidValue Value="10" />
+		<ValidValue Value="15" />
+		<ValidValue Value="20" />
+		<ValidValue Value="25" />
+		<ValidValue Value="30" />
+		<ValidValue Value="40" />
+		<ValidValue Value="50" />
+		<ValidValue Value="60" />
+		<ValidValue Value="70" />
+		<ValidValue Value="80" />
+		<ValidValue Value="90" />
+		<ValidValue Value="100" Description="(Default)" />
+		<ValidValue Value="150" />
+		<ValidValue Value="200" />
+	</GameSetting>
+	<GameSetting Command="SetSetting allow_voting " Name="Allow Voting" Description="Enabled players to call votes to kick a player or change maps." DefaultValue="1">
+		<ValidValue Value="0" Description="Disallows voting during the match" />
+		<ValidValue Value="1" Description="Allows voting during the match (Default)" />
+	</GameSetting>
+	<GameSetting Command="SetSetting time_of_day " Name="Time of Day" Description="Sets the time of day for the beginning of the match." DefaultValue="4294967294">
+		<ValidValue Value="-1" Description="Random" />
+		<ValidValue Value="4294967294" Description="Map Default (Default)" />
+		<ValidValue Value="6" Description="Dawn" />
+		<ValidValue Value="11" Description="Midday" />
+		<ValidValue Value="21" Description="Dusk" />
+		<ValidValue Value="23" Description="Night" />
+	</GameSetting>
+	<GameSetting Command="SetSetting weather_type " Name="Weather Type" Description="Sets the weather for the match." DefaultValue="-1">
+		<ValidValue Value="-1" Description="Random (Default)" />
+		<ValidValue Value="4294967294" Description="Map Default" />
+		<ValidValue Value="0" Description="Clear" />
+		<ValidValue Value="25" Description="Windy" />
+		<ValidValue Value="50" Description="Varied" />
+		<ValidValue Value="75" Description="Overcast" />
+		<ValidValue Value="100" Description="Stormy" />
+	</GameSetting>
+	<GameSetting Command="SetSetting joinprogress " Name="Join In Progress" Description="Determines if players can join a match in progress." DefaultValue="0">
+		<ValidValue Value="0" Description="Disables Join In Progress (Ranked)" />
+	</GameSetting>
+	<GameSetting Command="SetSetting inroundtime " Name="Match Duration" Description="Sets the match duration." DefaultValue="900" >
+		<ValidValue Value="0" Description="Infinite" />
+		<ValidValue Value="300" Description="5 Minutes" />
+		<ValidValue Value="600" Description="10 Minutes" />
+		<ValidValue Value="900" Description="15 Minutes (Default)" />
+		<ValidValue Value="1200" Description="20 Minutes" />
+		<ValidValue Value="1500" Description="25 Minutes" />
+		<ValidValue Value="1800" Description="30 Minutes" />
+		<ValidValue Value="3600" Description="60 MInutes" />
+	</GameSetting>
+	<GameSetting Command="SetSetting warning_zone_death_timeout " Name="Warning Zone Timer" Description="Sets how long a player has to return to the playing area." DefaultValue="10" >
+		<ValidValue Value="5" Description="5 Seconds" />
+		<ValidValue Value="10" Description="10 Seconds (Default)" />
+		<ValidValue Value="15" Description="15 Seconds" />
+		<ValidValue Value="20" Description="20 Seconds" />
+	</GameSetting>
+	<GameSetting Command="SetSetting match_pb_enabled " Name="Punkbuster" Description="Enables or disables Punkbuster." DefaultValue="1">
+		<ValidValue Value="1" Description="Enables Punkbuster (Ranked)" />
+	</GameSetting>
+	<GameSetting Command="SetSetting respawntime " Name="Respawn Timer" Description="The amount of time between respawn windows." DefaultValue="5">
+		<ValidValue Value="1" />
+		<ValidValue Value="2" />
+		<ValidValue Value="3" />
+		<ValidValue Value="4" />
+		<ValidValue Value="5" />
+		<ValidValue Value="10" Description="(Default)" />
+		<ValidValue Value="20" />
+		<ValidValue Value="30" />
+	</GameSetting>
+	<GameSetting Command="SetSetting respawninvincibletime " Name="Spawnshield Timer" Description="The amount of time a player is invincible after spawning." DefaultValue="10">
+		<ValidValue Value="0" />
+		<ValidValue Value="1" />
+		<ValidValue Value="2" />
+		<ValidValue Value="3" />
+		<ValidValue Value="4" />
+		<ValidValue Value="5" />
+		<ValidValue Value="10" Description="(Default)" />
+		<ValidValue Value="20" />
+		<ValidValue Value="30" />
+	</GameSetting>
+	<GameSetting Command="SetSetting minplayers " Name="Minimum Players" Description="Sets the minimum number of players before a match can start." DefaultValue="2">
+		<ValidValue Value="1" />
+		<ValidValue Value="2" Description="(Default)" />
+		<ValidValue Value="3" />
+		<ValidValue Value="4" />
+		<ValidValue Value="5" />
+		<ValidValue Value="6" />
+		<ValidValue Value="7" />
+		<ValidValue Value="8" />
+		<ValidValue Value="9" />
+		<ValidValue Value="10" />
+		<ValidValue Value="11" />
+		<ValidValue Value="12" />
+		<ValidValue Value="13" />
+		<ValidValue Value="14" />
+		<ValidValue Value="15" />
+		<ValidValue Value="16" />
+	</GameSetting>
+	<GameSetting Command="SetSetting maxplayers " Name="Maximum Players" Description="Sets the maximum number of players for a match." DefaultValue="16">
+		<ValidValue Value="1" />
+		<ValidValue Value="2" />
+		<ValidValue Value="3" />
+		<ValidValue Value="4" />
+		<ValidValue Value="5" />
+		<ValidValue Value="6" />
+		<ValidValue Value="7" />
+		<ValidValue Value="8" />
+		<ValidValue Value="9" />
+		<ValidValue Value="10" />
+		<ValidValue Value="11" />
+		<ValidValue Value="12" />
+		<ValidValue Value="13" />
+		<ValidValue Value="14" />
+		<ValidValue Value="15" />
+		<ValidValue Value="16" Description="(Default)" />
+	</GameSetting>
+	<GameSetting Command="SetSetting detectPublicAddress " Name="Detect Public Address" Description="This forces the game to discover your public IP address if you are behind a router." DefaultValue="1">
+		<ValidValue Value="0" Description="Force detection of your public IP address" />
+		<ValidValue Value="1" Description="Uses your local IP address (Default)" />
+	</GameSetting>
+	<GameSetting Command="SetSetting frameRateCaps " Name="Frame Rate Caps" Description="Sets the maximum FPS for the server (Preferred Value is 30)" DefaultValue="30" />
+</ArrayOfGameSetting>

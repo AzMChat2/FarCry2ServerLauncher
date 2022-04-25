@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<ArrayOfMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Map Name="Dirty Work" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_18_Greenhouse" Category="Original" MapSize="Small" MapType="Original" MapGameMode="All" />
+	<Map Name="Last Bastion" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_25_Prison" Category="Original" MapSize="Small" MapType="Original" MapGameMode="All" />
+	<Map Name="Pit Bull" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_15_Mine" Category="Original" MapSize="Small" MapType="Original" MapGameMode="All" />
+	<Map Name="Love Shacks" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_02_S_Shanty" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Mud Maze" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_07_M_Dogon" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Cut Bait" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_10_L_FishingVillage" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Riot Control" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_21_Town" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Coup D'Etat" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_08_M_Colony" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Rumble Strip" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_16_AirBase" Category="Original" MapSize="Medium" MapType="Original" MapGameMode="All" />
+	<Map Name="Rusty Beef" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_06_M_Ranch" Category="Original" MapSize="Large" MapType="Original" MapGameMode="All" />
+	<Map Name="Far Cry" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_11_L_Savanna" Category="Original" MapSize="Large" MapType="Original" MapGameMode="All" />
+	<Map Name="Crude Awakening" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_12_L_FuelDepot" Category="Original" MapSize="Large" MapType="Original" MapGameMode="All" />
+	<Map Name="Clear Cut" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_14_Woodlands" Category="Original" MapSize="Large" MapType="Original" MapGameMode="All" />
+	<Map Name="Sand Blasted" Author="Ubisoft Montreal" Creator="Ubisoft Montreal" FileName="MP_17_Dunes" Category="Original" MapSize="Large" MapType="Original" MapGameMode="All" />
+</ArrayOfMap>
+
+

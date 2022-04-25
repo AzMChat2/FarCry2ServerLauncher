@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ServerSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MiscConfig AutoRestart="true" LogStats="true" StatsFile="C:\FC2\Stats\Stats" RestartWait="120" StartTimeout="120" MessageWait="1">
+    <Option Name="Respawn Time" Command="SetSetting respawntime" Value="10" />
+    <Option Name="Starting Rank" Command="SetSetting start_rank" Value="1" />
+    <Welcome>Welcome {0} to the</Welcome>
+    <Welcome>{1} server.</Welcome>
+  </MiscConfig>
+  <BanConfig BanSwearing="true" BanTeamKill="true" Warnings="5" MaxWarnings="50" BanHistory="3">
+    <BanLength BanNumber="1" Value="1" Type="Hours" />
+    <BanLength BanNumber="2" Value="1" Type="Days" />
+    <BanLength BanNumber="3" Value="1" Type="Weeks" />
+    <BanLength BanNumber="4" Value="1" Type="Months" />
+    <SwearWord>fuck</SwearWord>
+    <SwearWord>shit</SwearWord>
+    <SwearWord>asshole</SwearWord>
+    <BannedMessage>ATTENTION {0}</BannedMessage>
+    <BannedMessage>You have been banned from this server</BannedMessage>
+    <BannedMessage>This ban will expire after {2}</BannedMessage>
+    <BannedMessage>You were banned for this reason:</BannedMessage>
+    <BannedMessage>{1}</BannedMessage>
+    <TeamKillWarning>ATTENTION {0}</TeamKillWarning>
+    <TeamKillWarning>WARNING! Team Killing is not allowed!</TeamKillWarning>
+    <TeamKillWarning>Team Killers will be banned.</TeamKillWarning>
+    <TeamKillWarning>You have been warned.</TeamKillWarning>
+    <TeamKillBan>ATTENTION {0}</TeamKillBan>
+    <TeamKillBan>You have been banned from this server</TeamKillBan>
+    <TeamKillBan>You were banned for Team Killing</TeamKillBan>
+    <SwearingWarning>ATTENTION {0}</SwearingWarning>
+    <SwearingWarning>WARNING! Swearing is not allowed!</SwearingWarning>
+    <SwearingWarning>Players using foul language will be</SwearingWarning>
+    <SwearingWarning>banned.  You have been warned.</SwearingWarning>
+    <SwearingBan>ATTENTION {0}</SwearingBan>
+    <SwearingBan>You have been banned from this server</SwearingBan>
+    <SwearingBan>You were banned for Foul Language</SwearingBan>
+    <MisconductWarning>ATTENTION {0}</MisconductWarning>
+    <MisconductWarning>WARNING! Misconduct is not tolerated!</MisconductWarning>
+    <MisconductWarning>Obey in-game administrators.</MisconductWarning>
+    <MisconductWarning>You have been warned.</MisconductWarning>
+    <MisconductBan>ATTENTION {0}</MisconductBan>
+    <MisconductBan>You have been banned from this server</MisconductBan>
+    <MisconductBan>You were banned for Misconduct</MisconductBan>
+  </BanConfig>
+</ServerSettings>

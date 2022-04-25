@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8844DEB-D29A-4658-879A-CC425B21807C}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblyInfo_Common.cs = AssemblyInfo_Common.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinRef", "BinRef", "{8A4051F2-E857-43BC-9CC0-5293C3AE74CB}"
+	ProjectSection(SolutionItems) = preProject
+		BinRef\ManagedSpyLib.dll = BinRef\ManagedSpyLib.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{610B2DC6-F895-4690-93DC-FDAB9F0C0687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{4B0E6431-C213-4550-A6F3-A928C59AAB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote", "FC2.SL.Remote\Remote.csproj", "{61DD1B63-FDA6-4FC9-A79D-EC266CE0E381}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GUI\\GUI.csproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = GUI\\
+		SccProjectUniqueName2 = Core\\Core.csproj
+		SccLocalPath2 = .
+		SccProjectFilePathRelativizedFromConnection2 = Core\\
+		SccProjectUniqueName3 = FC2.SL.Remote\\Remote.csproj
+		SccLocalPath3 = .
+		SccProjectFilePathRelativizedFromConnection3 = FC2.SL.Remote\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{610B2DC6-F895-4690-93DC-FDAB9F0C0687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{610B2DC6-F895-4690-93DC-FDAB9F0C0687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{610B2DC6-F895-4690-93DC-FDAB9F0C0687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{610B2DC6-F895-4690-93DC-FDAB9F0C0687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B0E6431-C213-4550-A6F3-A928C59AAB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B0E6431-C213-4550-A6F3-A928C59AAB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B0E6431-C213-4550-A6F3-A928C59AAB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B0E6431-C213-4550-A6F3-A928C59AAB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DD1B63-FDA6-4FC9-A79D-EC266CE0E381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DD1B63-FDA6-4FC9-A79D-EC266CE0E381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DD1B63-FDA6-4FC9-A79D-EC266CE0E381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DD1B63-FDA6-4FC9-A79D-EC266CE0E381}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A4051F2-E857-43BC-9CC0-5293C3AE74CB} = {C8844DEB-D29A-4658-879A-CC425B21807C}
+	EndGlobalSection
+EndGlobal
